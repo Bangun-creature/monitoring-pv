@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: white;
+  background-image: url("img/newEnergyBg.png");
+  background-size: cover;
+  background-position: center; */
+}
+
+.main-container {
+  margin: 1.5rem 5%;
+  display: grid;
+  grid-template-areas: "main aside";
+  grid-template-columns: 1fr 0.4fr;
+  gap: 1rem;
+
+  /* border: 1px solid red; */
+}
+
+.main {
+  grid-area: main;
+  border: 3px solid #78909c;
+  border-style: outset;
+  height: fit-content;
+}
+
+.main img {
+  width: 100%;
+}
+
+.aside {
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+  padding: 0px 10px;
+  gap: 0.2rem;
+}
+
+.aside .card {
+  border: 3px solid #78909c;
+  border-style: outset;
+  padding: 10px;
+  background-color: #212121;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.aside .card h2 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px #80cbc4;
+}
+
+.aside .card .battery {
+  padding: 0.3rem 1rem;
+  /* border: 1px solid blue; */
+  background-color: #039be5;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.aside .card .vc-status {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.3rem 1rem;
+  border: 2px solid #80cbc4;
+  border-style: outset;
+  background-color: #e0f7fa;
+  color: #212121;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.card .vc-status h3 {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1020px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "main" "aside";
+    justify-items: center;
+  }
+
+  .aside {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .aside {
+    width: 80%;
+  }
+}
