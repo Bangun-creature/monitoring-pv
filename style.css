@@ -25,11 +25,10 @@ body {
   grid-area: main;
   border: 3px solid #78909c;
   border-style: outset;
-  height: fit-content;
-}
-
-.main img {
-  width: 100%;
+  background-image: url("img/map-lampu.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .aside {
