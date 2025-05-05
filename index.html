@@ -14,8 +14,65 @@
     />
   </head>
   <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <div class="image">
+            <img src="img/logoPlace.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h3>Monitoring PV</h3>
+            <p>bangunjati07282@gmail.com</p>
+          </div>
+        </div>
+        <div class="navbar-list">
+          <ul>
+            <li id="dashboard" class="active">
+              <a href="#"
+                ><span id="icon-dashboard"
+                  ><img src="assets/dashboard.svg" alt="dashboard"
+                /></span>
+                Dashboard</a
+              >
+            </li>
+            <li id="voltage">
+              <a href="#"
+                ><span id="icon-voltage"
+                  ><img src="assets/voltage.svg" alt="voltage"
+                /></span>
+                Voltage</a
+              >
+            </li>
+            <li id="current">
+              <a href="#"
+                ><span id="icon-current"
+                  ><img src="assets/current.svg" alt="current"
+                /></span>
+                Current</a
+              >
+            </li>
+            <li id="reports">
+              <a href="#"
+                ><span id="icon-reports"
+                  ><img src="assets/reports.svg" alt="reports"
+                /></span>
+                Report</a
+              >
+            </li>
+            <li id="settings">
+              <a href="#"
+                ><span id="icon-settings"
+                  ><img src="assets/settings.svg" alt="settings"
+                /></span>
+                Settings</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <main>
-      <div class="main-container">
+      <div class="main-container" id="dashboard-field">
         <div class="main">
           <!-- Tempat gambar -->
         </div>
@@ -92,6 +149,55 @@
           </div>
         </div>
       </div>
+      <div class="voltage-container hidden" id="voltage-field">
+        <div class="voltage-header">
+          <div class="title">
+            <h3>Voltage</h3>
+          </div>
+          <div class="buttons">
+            <ul>
+              <li>
+                <a href="#"
+                  ><span id="icon-download"
+                    ><img src="assets/download.svg" alt="download" /></span
+                  >Download</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span id="icon-filter"
+                    ><img src="assets/filter.svg" alt="filter" /></span
+                  >Filter</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container-chart">
+          <canvas id="myChart"></canvas>
+        </div>
+        <div class="table-container">
+          <table border="1px" cellspacing="0">
+            <tr>
+              <th>No</th>
+              <th style="background-color: #eb5353; color: white">Time</th>
+              <th style="background-color: #36ae7c; color: white">Voltage</th>
+              <th style="background-color: #187498; color: white">Day</th>
+              <th>Delete</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>10.00</td>
+              <td>20 volt</td>
+              <td>Wednesday</td>
+              <td><a href="#">Delete</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="javascript/voltage.js"></script>
+    <script src="javascript/script.js"></script>
   </body>
 </html>
