@@ -200,14 +200,16 @@ main {
 /*Voltage*/
 
 main .voltage-header,
-main .current-header {
+main .current-header,
+main .reports-header {
   padding: 1rem 3%;
   display: flex;
   justify-content: space-between;
 }
 
 main .voltage-header .title h3,
-main .current-header .title h3 {
+main .current-header .title h3,
+main .reports-header .title h3 {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -215,7 +217,8 @@ main .current-header .title h3 {
 }
 
 main .voltage-container .buttons ul,
-main .current-container .buttons ul {
+main .current-container .buttons ul,
+main .reports-container .buttons ul {
   display: flex;
   padding: 0 0.4rem;
   gap: 1rem;
@@ -224,7 +227,8 @@ main .current-container .buttons ul {
 }
 
 main .voltage-container .buttons ul li a,
-main .current-container .buttons ul li a {
+main .current-container .buttons ul li a,
+main .reports-container .buttons ul li a {
   text-decoration: none;
   border: 1px solid black;
   padding: 0.1rem 0.8rem;
