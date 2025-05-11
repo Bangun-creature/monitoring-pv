@@ -245,7 +245,8 @@ main .reports-container .buttons ul li a {
 
 main .voltage-container .container-chart,
 main .current-container .container-graph,
-main .current-container .container-bottom {
+main .current-container .container-bottom,
+main .reports-container .reports-content {
   padding: 0.4rem 2%;
 
   /* padding: 1rem; */
@@ -261,7 +262,8 @@ main .current-container .container-graph #myGraph {
 }
 
 main .voltage-container .table-container,
-main .current-container .firstDetail .table-container {
+main .current-container .firstDetail .table-container,
+main .reports-container .reports-content .table-container {
   padding: 0.5rem;
   font-family: "Roboto", sans-serif;
 }
@@ -275,19 +277,22 @@ main .voltage-container .table-container {
 }
 
 main .voltage-container .table-container table,
-main .current-container .firstDetail .table-container table {
+main .current-container .firstDetail .table-container table,
+main .reports-container .reports-content .table-container table {
   width: 100%;
   border: 0rem solid rgb(233, 228, 228);
 }
 
 main .voltage-container .table-container table th,
-main .current-container .firstDetail .table-container table th {
+main .current-container .firstDetail .table-container table th,
+main .reports-container .reports-content .table-container table th {
   padding: 0.2rem 1rem;
   font-weight: 400;
 }
 
 main .voltage-container .table-container table td,
-main .current-container .firstDetail .table-container table td {
+main .current-container .firstDetail .table-container table td,
+main .reports-container .reports-content .table-container table td {
   padding: 0.2rem 1rem;
   font-weight: 300;
 }
@@ -295,12 +300,15 @@ main .current-container .firstDetail .table-container table td {
 main .voltage-container .table-container table tr th,
 main .voltage-container .table-container table tr td,
 main .current-container .firstDetail .table-container table tr th,
-main .current-container .firstDetail .table-container table tr td {
+main .current-container .firstDetail .table-container table tr td,
+main .reports-container .reports-content .table-container table tr th,
+main .reports-container .reports-content .table-container table tr td {
   color: white;
 }
 
 main .voltage-container .table-container table td:last-child,
-main .current-container .firstDetail .table-container table td:last-child {
+main .current-container .firstDetail .table-container table td:last-child,
+main .reports-container .reports-content .table-container table td:last-child {
   display: flex;
   justify-content: center;
 }
@@ -346,6 +354,38 @@ main .current-container .container-bottom .secondDetail .container {
   background-color: #80cbc4;
   width: 100%;
   height: 100%;
+}
+
+/* Reports */
+main .reports-container {
+  height: 100vh;
+  /* background-color: red; */
+}
+
+main .reports-container .reports-content {
+  height: 87%;
+  display: grid;
+  grid-template-areas: "freports sreports";
+  grid-template-columns: 1fr 0.8fr;
+  gap: 1rem;
+  /* grid-template-rows: 1fr; */
+  /* background-color: yellow; */
+}
+
+main .reports-container .firstReport {
+  grid-area: freports;
+  padding: 0.5rem;
+}
+
+main .reports-container .secondReport {
+  grid-area: sreports;
+}
+
+main .reports-container .firstReport,
+main .reports-container .secondReport {
+  background-color: #212121;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 1020px) {
