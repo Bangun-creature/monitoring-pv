@@ -21,4 +21,8 @@
 
 ### 3. Data dari Database Ditampilkan ke Website
 
+![jQuery png](https://github.com/user-attachments/assets/927d1b80-bd40-4707-bd6f-5356f0ef0a96)
+
+![bacaStatusLampu png](https://github.com/user-attachments/assets/e5633cda-2a08-4140-8101-695a08426942)
+
 ![monitoring-pv-v1 png](https://github.com/user-attachments/assets/0e80e82a-2f29-45e4-9481-78eed972da17)
