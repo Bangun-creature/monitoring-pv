@@ -1,10 +1,14 @@
 # Program untuk Monitoring Prototype System Photovoltaic
 ## Tujuan Tugas
+Tugas project yang dilaksanakan secara kelompok/tim ini bertujuan untuk memenuhi nilai mata kuliah Sistem Telekomunikasi pada Semester 4. 
+
+## Desikripsi Singkat Project
+
 
 ## Cara Kerja Prototype System Photovoltaic
-### 1. Panel Surya Mengisi Baterai 
-### 2. Pengisian Baterai dari Panel Surya Menggunakan Modul ...
-### 3. Baterai yang Terisi akan Menghidupkan Lampu LED
+### 1. Panel Surya Mengisi Baterai 3.7V (tipe 18650)
+### 2. Pengisian Baterai dari Panel Surya Menggunakan Modul TP4056
+### 3. Baterai yang Terisi akan Menghidupkan Lampu LED 5V
 
 ## Cara Kerja Website Monitoring
 ### 1. Data Dikirim dari Perangkat Mikrokontroller ESP32
