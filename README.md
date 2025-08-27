@@ -30,3 +30,7 @@ Tugas project yang dilaksanakan secara kelompok/tim ini bertujuan untuk memenuhi
 ![bacaStatusLampu png](https://github.com/user-attachments/assets/e5633cda-2a08-4140-8101-695a08426942)
 
 ![monitoring-pv-v1 png](https://github.com/user-attachments/assets/0e80e82a-2f29-45e4-9481-78eed972da17)
+
+### 4. Hasil Pengujian Sistem Monitoring
+![HasilON](https://github.com/user-attachments/assets/bbdf9feb-5569-4c70-901c-8a451362af5a)
+
