@@ -6,10 +6,16 @@ Tugas project yang dilaksanakan secara kelompok/tim ini bertujuan untuk memenuhi
 
 
 ## Cara Kerja Prototype System Photovoltaic
-### 1. Panel Surya Mengisi Baterai 3.7V (tipe 18650)
-### 2. Pengisian Baterai dari Panel Surya Menggunakan Modul TP4056
-### 3. Baterai yang Terisi akan Menghidupkan Lampu LED 5V
+### 1. Panel Surya Mengisi Baterai 3.7 volt (tipe 18650)
+Panel surya yang digunakan untuk mengisi baterai merupakan panel surya 5 volt.
 
+Baterai yang digunakan untuk menyimpan listrik yang dihasilkan panel surya merupakan baterai 3,7 volt dengan tipe 18650.
+
+
+### 2. Pengisian Baterai dari Panel Surya Menggunakan Modul TP4056
+Baterai 3,7 volt diisi menggunakan modul TP4056 sehingga tegangan dari panel surya akan lebih stabil sebelum masuk ke baterai.
+### 3. Baterai yang Terisi akan Menghidupkan Lampu LED 5V
+Baterai digunakan untuk menghidupkan lampu LED 5 volt yang dimisalkan sebagai lampu taman.
 ## Cara Kerja Website Monitoring
 ### 1. Data Dikirim dari Perangkat Mikrokontroller ESP32
 
