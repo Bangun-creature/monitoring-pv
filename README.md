@@ -1,11 +1,11 @@
 # Program untuk Monitoring Prototype System Photovoltaic
-## Tujuan Tugas
+## 📌 Tujuan Tugas
 Tugas project yang dilaksanakan secara kelompok/tim ini bertujuan untuk memenuhi nilai mata kuliah Sistem Telekomunikasi pada Semester 4. 
 
-## Desikripsi Singkat Project
+## 📝 Desikripsi Singkat Project
 Proyek ini merupakan sistem lampu taman tenaga surya yang memanfaatkan panel surya 5V untuk mengisi baterai lithium 18650 bertegangan 3,7V melalui modul pengisi daya TP4056 agar proses pengisian lebih aman dan stabil. Energi yang tersimpan pada baterai kemudian digunakan untuk menyalakan lampu LED 5V sebagai sumber penerangan. Prototype Sistem ini dirancang agar hemat energi, ramah lingkungan, dan dapat bekerja secara mandiri tanpa sumber listrik PLN.
 
-## Cara Kerja Prototype System Photovoltaic
+## ⚙️ Cara Kerja Prototype System Photovoltaic
 ### 1. Panel Surya Mengisi Baterai 3.7 volt (tipe 18650)
 Panel surya yang digunakan untuk mengisi baterai merupakan panel surya 5 volt.
 
@@ -16,7 +16,7 @@ Baterai yang digunakan untuk menyimpan listrik yang dihasilkan panel surya merup
 Baterai 3,7 volt diisi menggunakan modul TP4056 sehingga tegangan dari panel surya akan lebih stabil sebelum masuk ke baterai.
 ### 3. Baterai yang Terisi akan Menghidupkan Lampu LED 5V
 Baterai digunakan untuk menghidupkan lampu LED 5 volt yang dimisalkan sebagai lampu taman.
-## Cara Kerja Website Monitoring
+## 🖥️ Cara Kerja Website Monitoring
 ### 1. Data Dikirim dari Perangkat Mikrokontroller ESP32
 
 ![koneksiWebServer png](https://github.com/user-attachments/assets/36eeae43-a30b-41c4-aefa-bc7044e5b7ea)
